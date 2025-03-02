@@ -3,7 +3,7 @@
 import unittest
 from flask import Flask, json
 from app import create_app, db
-from app.routes.upload_routes import upload_bp
+from app.routes.upload import upload_bp
 import os
 from io import BytesIO
 
