@@ -1,0 +1,9 @@
+Flask
+Pillow
+pdf2image
+python-dotenv
+Flask-SQLAlchemy
+psycopg2-binary
+opencv-python
+pytesseract
+pandas

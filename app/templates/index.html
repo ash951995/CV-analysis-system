@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CV Analysis Chatbot</title>
+</head>
+<body>
+    <h1>CV Analysis Chatbot</h1>
+    <form>
+        <input type="text" id="queryInput" placeholder="Enter your query">
+        <button id="sendButton">Send</button>
+    </form>
+
+    <div id="chatbox" style="margin-top: 20px;">
+        <div id="messages"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
